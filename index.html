@@ -11,9 +11,269 @@
       href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./fonts/ProximaNova-Regular.woff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header>HI</header>
+    <header class="header">
+      <div class="header-navigation">
+        <div class="container header-container">
+          <div class="social">
+            <p class="social-text">Ми в соціальних мережах:</p>
+            <ul class="social-list list">
+              <li class="social-item">
+                <a
+                  href="#"
+                  rel="noopener noreferrer nofollow"
+                  class="social-item-link link"
+                  ><svg class="social-item-icon">
+                    <use href="./images/sprite.svg#icon-telegram"></use></svg
+                ></a>
+              </li>
+              <li class="social-item">
+                <a
+                  href="#"
+                  rel="noopener noreferrer nofollow"
+                  class="social-item-link link"
+                  ><svg class="social-item-icon">
+                    <use href="./images/sprite.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="social-item">
+                <a
+                  href="#"
+                  rel="noopener noreferrer nofollow"
+                  class="social-item-link link"
+                  ><svg class="social-item-icon">
+                    <use href="./images/sprite.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+            </ul>
+            <div class="phone">
+              <a href="tel:+380991112233" class="phone-link link">
+                <svg class="phone-icon">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                <p class="phone-text">(099) 111 22 33</p>
+              </a>
+              <svg class="more-icon">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </div>
+          </div>
+
+          <nav class="navigation">
+            <ul class="navigation-list list">
+              <li class="navigation-item">
+                <a href="#" class="navigation-item-link active-link link"
+                  >Головна</a
+                >
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="navigation-item-link link">Акції</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="navigation-item-link link"
+                  >Доставка та оплата</a
+                >
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="navigation-item-link link">Про нас</a>
+              </li>
+              <li class="navigation-item">
+                <a href="#" class="navigation-item-link link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="container wrap-container">
+        <div class="header-navigation-kinds">
+          <ul class="header-kinds-list list">
+            <li class="header-kinds-item">
+              <p class="header-kinds-text">Дивани</p>
+              <svg class="more-icon more-icon-kinds">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </li>
+            <li class="header-kinds-item">
+              <p class="header-kinds-text">Ліжка</p>
+              <svg class="more-icon more-icon-kinds">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </li>
+            <li class="header-kinds-item">
+              <p class="header-kinds-text">Крісла</p>
+              <svg class="more-icon more-icon-kinds">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </li>
+            <li class="header-kinds-item">
+              <p class="header-kinds-text">Комоди</p>
+              <svg class="more-icon more-icon-kinds">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </li>
+            <li class="header-kinds-item">
+              <p class="header-kinds-text">Шафи</p>
+              <svg class="more-icon more-icon-kinds">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </li>
+            <li class="header-kinds-item">
+              <p class="header-kinds-text">Кухня</p>
+              <svg class="more-icon more-icon-kinds">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </li>
+          </ul>
+          <div class="logo">
+            <svg class="logo-icon">
+              <use href="./images/sprite.svg#icon-logo"></use>
+            </svg>
+            <p class="logo-text">
+              <span class="logo-text-highlight">F</span>urniture.test
+            </p>
+          </div>
+        </div>
+        <div class="header-navigation-callback">
+          <a href="" class="header-navigation-cart-link link"
+            ><svg class="cart-icon">
+              <use href="./images/sprite.svg#icon-cart"></use>
+            </svg>
+            Кошик</a
+          >
+          <button class="button" type="button">Замовити дзвінок</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="new-collection">
+        <div class="container">
+          <div class="new-collection-information">
+            <h1 class="new-collection-title">Новинка!</h1>
+            <p class="new-collection-item-title">Ліжко Ornella</p>
+            <p class="new-collection-item-text">
+              Це новий рівень комфортного сну
+            </p>
+            <button class="button new-collection-details-button" type="button">
+              Детальніше
+            </button>
+            <p class="new-collection-number">
+              <span class="new-collection-item-number">01</span>/04
+            </p>
+            <div class="collection-wrap">
+              <div>
+                <button type="button" class="new-collection-button">
+                  <svg class="arrow-button-icon left-button-icon">
+                    <use href="./images/sprite.svg#icon-arrow-button"></use>
+                  </svg>
+                </button>
+                <button type="button" class="new-collection-button">
+                  <svg class="arrow-button-icon">
+                    <use href="./images/sprite.svg#icon-arrow-button"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <h2 class="section-title section-title-advantages">Наші переваги</h2>
+          <div class="advantages-wrap">
+            <ul class="advantages-list list">
+            <li class="advantages-item">
+              <picture class="advantages-item-pics">
+                <source
+                  srcset="
+                    ./images/furniture.jpg    1x,
+                    ./images/furniture-2x.jpg 2x
+                  "
+                  media="(min-width:1920px)"
+                />
+                <img
+                  src="./images/furniture.jpg"
+                  alt="Кухня з меблями преміум класу"
+                  width="586"
+                />
+              </picture>
+              <div class="advantages-item-text-wrap">
+                <p class="advantages-item-text">Меблі преміум класу</p>
+                <p class="advantages-item-text-description">
+                  За 14 років на ринку меблів для дому ми стали надійними
+                  партнерами на ринку Вінницької області та України
+                </p>
+              </div>
+            </li>
+            <li class="advantages-item">
+              <picture class="advantages-item-pics">
+                <source
+                  srcset="
+                    ./images/reliability.jpg    1x,
+                    ./images/reliability-2x.jpg 2x
+                  "
+                  media="(min-width:1920px)"
+                />
+                <img
+                  src="./images/reliability.jpg"
+                  alt="Команда людей на переговорах"
+                  width="586"
+                />
+              </picture>
+              <div class="advantages-item-text-wrap">
+                <p class="advantages-item-text">Надійність</p>
+                <p class="advantages-item-text-description">
+                  За 14 років на ринку меблів для дому ми стали надійними
+                  партнерами на ринку Вінницької області та України
+                </p>
+              </div>
+            </li>
+            <li class="advantages-item">
+              <picture class="advantages-item-pics">
+                <source
+                  srcset="./images/delivery.jpg 1x, ./images/delivery-2x.jpg 2x"
+                  media="(min-width:1920px)"
+                />
+                <img src="./images/delivery.jpg" alt="Жовта фура" width="586" />
+              </picture>
+              <div class="advantages-item-text-wrap">
+                <p class="advantages-item-text">Безкоштовна доставка</p>
+                <p class="advantages-item-text-description">
+                  За 14 років на ринку меблів для дому ми стали надійними
+                  партнерами на ринку Вінницької області та України
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="advantages-button-wrap">
+            <button type="button" class="advantages-button">
+              <svg class="arrow-button-icon left-button-icon">
+                <use href="./images/sprite.svg#icon-arrow-button"></use>
+              </svg>
+            </button>
+            <button type="button" class="advantages-button">
+              <svg class="arrow-button-icon">
+                <use href="./images/sprite.svg#icon-arrow-button"></use>
+              </svg>
+            </button>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="products-category">
+        <div class="container">
+          <h2 class="section-title section-title-products">Категорії товарів</h2>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
